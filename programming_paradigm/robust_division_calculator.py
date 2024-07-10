@@ -10,8 +10,8 @@ def safe_divide(numerator, denominator):
         else:
             results = (numerator)/(denominator)
             return (f"The result of the division is {results}")
-    except ValueError as e:
-        return e
+    except ValueError:
+        return "Error: Please enter numeric values only."
     except (ZeroDivisionError,ValueError) as e:
         return e
     
