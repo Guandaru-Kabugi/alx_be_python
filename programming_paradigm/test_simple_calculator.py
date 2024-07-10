@@ -21,7 +21,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.subtract(-2, 3), -5)
         self.assertEqual(self.calc.subtract(2, -3), 5)
         self.assertEqual(self.calc.subtract(-2, -3), 1)
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(2, 3), 6)
         self.assertEqual(self.calc.multiply(3, 3), 9)
         self.assertEqual(self.calc.multiply(3, 2.5), 7.5)
